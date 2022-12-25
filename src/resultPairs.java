@@ -8,20 +8,20 @@ public class resultPairs {
         // TODO Auto-generated method stub
 
         ArrayList<Integer> inputNumbersArrayList = new ArrayList<Integer>();
-        inputNumbersArrayList.add(15);
-        inputNumbersArrayList.add(0);
-        inputNumbersArrayList.add(2);
-        inputNumbersArrayList.add(5);
-        inputNumbersArrayList.add(4);
-        inputNumbersArrayList.add(8);
         inputNumbersArrayList.add(6);
-        inputNumbersArrayList.add(3);
-        inputNumbersArrayList.add(1);
-        inputNumbersArrayList.add(30);
-        inputNumbersArrayList.add(40);
-        inputNumbersArrayList.add(20);
+        inputNumbersArrayList.add(6);
+        inputNumbersArrayList.add(6);
+        inputNumbersArrayList.add(4);
+        inputNumbersArrayList.add(4);
+        inputNumbersArrayList.add(4);
+//        inputNumbersArrayList.add(6);
+//        inputNumbersArrayList.add(3);
+//        inputNumbersArrayList.add(1);
+//        inputNumbersArrayList.add(30);
+//        inputNumbersArrayList.add(40);
+//        inputNumbersArrayList.add(20);
 //        ArrayList<ArrayList<Integer>> combinationsArrayList = combination(inputNumbersArrayList, 5);
-        HashMap<Integer, Integer> hashCombinations = combinationHashMap(inputNumbersArrayList, 6);
+        HashMap<Integer, Integer> hashCombinations = combinationHashMap(inputNumbersArrayList, 10);
        
 //        System.out.print("[ ");
 //        for(int i = 0; i < combinationsArrayList.size(); ++i) {
