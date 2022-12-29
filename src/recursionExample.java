@@ -7,7 +7,8 @@ public class recursionExample {
         //System.out.println("Main return: " + factorialRec(5));
         //reverseString("Sultan", 6);
         //printIncreasingValue(4, 0);
-        System.out.print(pelindrome("cbvffjlo", 8));
+        //System.out.print(pelindrome("cbvffjlo", 8));
+        fabonacciSeries(8);
     }
     
     
@@ -55,6 +56,22 @@ public class recursionExample {
         }
         
         return inputString.charAt(length-1) == inputString.charAt(inputString.length()-length) && pelindrome(inputString, length-1);
+        
+    }
+    
+    public static int fabonacciSeries(int n) {
+        if(n == 0){
+            System.out.print(n + " ");
+            return 0;
+        }
+        if(n == 1 || n == 2){
+            System.out.print(n + " ");
+                return 1;
+            }
+        
+        int sumfabonacci = fabonacciSeries(n-2) + fabonacciSeries(n-1);
+        System.out.print(sumfabonacci);
+        return sumfabonacci;
         
     }
 
